@@ -36,8 +36,8 @@ gptfdisk
 grml-zsh-config
 hdparm
 intel-ucode
-ipw2100-fw
-ipw2200-fw
+#ipw2100-fw
+#ipw2200-fw
 irssi
 iwd
 jfsutils
@@ -131,6 +131,7 @@ neofetch
 bluez-utils
 packagekit-qt5
 pulseaudio-bluetooth
+partitionmanager
 
 #Installer
 grub
@@ -141,6 +142,8 @@ os-prober
 #Browser
 firefox
 alg-firefox-settings
+google-chrome
+opera-ffmpeg-codecs
 
 #Office Suite
 libreoffice-fresh
@@ -163,8 +166,19 @@ mcmojave-cursors
 
 #AUR Helper
 paru
+yay
+pamac
+chaotic-keyring
+chaotic-mirrorlist
+
 
 #NVIDIA Drivers & Tools
 nvidia
 nvidia-utils
 nvidia-settings
+
+#asian input
+fcitx5
+fcitx5-chinese-addons
+fcitx5-mozc
+fcitx5-hangul
